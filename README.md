@@ -13,7 +13,6 @@ The game consists of a series of challenges and questions that players must comp
 - Enable players to create and add their own custom challenges
 - Multi-language support ------>  DONE - The game supports 4 languages, English, Portuguese, Italian and Spanish
 - Variety of challenge types
-- Enhanced User interface
 - Bring new animations
 
  
