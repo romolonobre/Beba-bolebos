@@ -18,3 +18,7 @@ The game consists of a series of challenges and questions that players must comp
 
  
  <img width="973" alt="Screenshot 2024-07-24 at 22 04 00" src="https://github.com/user-attachments/assets/3b1004c9-c15f-4f80-b89c-822f2b229a98">
+
+
+
+
