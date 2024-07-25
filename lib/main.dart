@@ -19,7 +19,7 @@ class BebaBolebosApp extends StatelessWidget {
   Widget build(BuildContext context) {
     LocalJsonLocalization.delegate.directories = ['assets/lib/i18n'];
 
-    var localeCode = AppCache().getLocale() ?? 'en';
+    var localeCode = AppCache().getLocale();
 
     return MaterialApp(
         localizationsDelegates: [

@@ -11,7 +11,6 @@ class AddPlayerInputWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextField(
-      autofocus: true,
       style: const TextStyle(
         color: Colors.white,
         fontWeight: FontWeight.w500,

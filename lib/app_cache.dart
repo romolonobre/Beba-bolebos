@@ -19,7 +19,7 @@ class AppCache {
     await _prefs.setString('locale', locale);
   }
 
-  String? getLocale() {
+  String getLocale() {
     return _prefs.getString('locale') ?? "en";
   }
 }
