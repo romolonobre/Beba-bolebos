@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:friends_game/home_screen.dart';
+import 'package:localization/localization.dart';
 import 'package:lottie/lottie.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -45,9 +46,9 @@ class _SplashScreenState extends State<SplashScreen> {
             LottieBuilder.asset(
               "assets/drink_1.json",
             ),
-            const Text(
-              "Loading...",
-              style: TextStyle(
+            Text(
+              "loading".i18n(),
+              style: const TextStyle(
                 color: Colors.red,
                 fontSize: 20,
                 fontWeight: FontWeight.bold,

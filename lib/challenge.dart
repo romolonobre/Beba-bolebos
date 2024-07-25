@@ -1,3 +1,5 @@
+import 'package:localization/localization.dart';
+
 class Challenge {
   final String value;
   final bool all;
@@ -14,339 +16,324 @@ class Challenge {
 
 List<Challenge> challenges = [
   Challenge(
-    value: "Beba 3 goles!",
+    value: "drink-3-sips".i18n(),
   ),
   Challenge(
-    value: "Faça uma para nós. Faça!",
+    value: "make-one-for-us-do-it".i18n(),
   ),
   Challenge(
-    value: "Pode beber quando quiser.",
+    value: "drink-whenever-you-want".i18n(),
   ),
   Challenge(
-    value: "Sortudo. Ganhou 2 gole-pass.",
+    value: "won-2-sip-passes".i18n(),
   ),
   Challenge(
-    value: "Qual é a maior estrela do nosso sistema solar? Se errar, beba 1 shot.",
+    value: "largest-star-solar-system".i18n(),
   ),
   Challenge(
-    value: "Beba um shot. Para parar de ser bobo!",
+    value: "drink-shot-stop-being-silly".i18n(),
   ),
   Challenge(
-    value: "Quem nasce no estado do Rio de Janeiro, é o quê? Se errar, beba 4 goles.",
+    value: "born-in-rio-de-janeiro".i18n(),
   ),
   Challenge(
-    value: "Tudo bem com você? Beba 2 goles.",
+    value: "are-you-okay".i18n(),
   ),
   Challenge(
-    value: "Beba 1 shot de limão com sal!",
+    value: "shot-lemon-salt".i18n(),
   ),
   Challenge(
-    value: "Faça uma escolha. Se preferir não beber shots, beba 2 agora. Se preferir, mande alguém beber um shot.",
+    value: "make-choice".i18n(),
   ),
   Challenge(
-    value: "Você e seus amigos bebem 3 goles.",
+    value: "you-and-friends-drink".i18n(),
   ),
   Challenge(
-    value:
-        "Desafie alguém para jogar vira o copo, quem perder bebe 2 shots. Detalhes: 3 copos de cerveja cheios até a metade.",
+    value: "challenge-flip-cup".i18n(),
   ),
   Challenge(
-    value: "Conte algo que ninguém sabe. Se alguém souber, beba 3 goles.",
+    value: "share-secret".i18n(),
   ),
   Challenge(
-    value: "Se seu copo estiver cheio, vire-o. Se não, quem estiver à sua direita bebe 4 goles.",
+    value: "full-cup-drink".i18n(),
   ),
   Challenge(
-    value: "Escolha a pessoa que você acha mais engraçada para beber um shot de tequila com você.",
+    value: "funniest-drink-shot".i18n(),
   ),
   Challenge(
-    value:
-        "Escolha um jogador para ficar fora por 5 minutos, sem celular. O escolhido deve virar seu copo antes de sair.",
+    value: "sit-out-5-min".i18n(),
   ),
   Challenge(
-    value: "Faça um gesto engraçado. Se ninguém achar engraçado, beba 4 goles.",
+    value: "make-funny-gesture".i18n(),
   ),
   Challenge(
-    value: "Dance na boquinha da garrafa e escolha alguém para beber 2 goles.",
+    value: "dance-choose-drink".i18n(),
   ),
   Challenge(
-    value: "Escolha as próximas 3 músicas.",
+    value: "choose-next-3-songs".i18n(),
   ),
   Challenge(
-    value: "Beba um copo d'água. Faz bem!",
+    value: "drink-water-good".i18n(),
   ),
   Challenge(
-    value:
-        "Escolha um apelido para o jogador à sua esquerda. Todos devem chamá-lo por esse nome até o fim do jogo. Quem falhar bebe 3 goles.",
+    value: "nickname-left-player".i18n(),
   ),
   Challenge(
-    value: "O que é o que é? Clara e salgada, cabe em um olho e pesa uma tonelada. Se errar, vire o copo.",
+    value: "what-is-it".i18n(),
   ),
   Challenge(
-    value: "Diga um defeito seu. Se a galera concordar, você ganha +5 gole-pass; caso contrário, beba-os.",
+    value: "confess-flaw".i18n(),
   ),
   Challenge(
-    value: "Complete seu copo com água e beba tudo.",
+    value: "fill-water-drink".i18n(),
   ),
   Challenge(
-    value: "Beba 2 goles de cabeça para baixo.",
+    value: "drink-2-sips-upside-down".i18n(),
   ),
   Challenge(
-    value: "Pode dar uma pausa de 10 minutos se quiser.",
+    value: "take-10-min-break".i18n(),
   ),
   Challenge(
-    value: "Não pode levantar da mesa por 20 minutos.",
+    value: "no-get-up-20-min".i18n(),
   ),
   Challenge(
-    value: "Escolha alguém para te beijar agora. Se ninguém quiser, você deve beber 1 shot.",
+    value: "choose-kiss".i18n(),
   ),
   Challenge(
-    value: "Tente fazer alguém dar risada. Quem rir bebe 3 goles; caso contrário, beba você mesmo.",
+    value: "make-laugh-drink".i18n(),
   ),
   Challenge(
-    value: "Diga um elogio ou faça um gesto engraçado. Quem rir bebe 4 goles.",
+    value: "say-praise-funny-gesture".i18n(),
   ),
   Challenge(
-    value: "Diga o nome de 10 capitais em 20 segundos ou vire seu copo.",
+    value: "name-10-capitals-20-sec".i18n(),
   ),
   Challenge(
-    value: "Escolha alguém para beber 2 shots no seu umbigo.",
+    value: "drink-2-shots-navel".i18n(),
   ),
   Challenge(
-    value: "Nessa cerveja tem muito copo. Escolha alguém para virá-la.",
+    value: "beer-lot-drink".i18n(),
   ),
   Challenge(
-    value: "Sortudo, agora você pode beber quando quiser.",
+    value: "lucky-drink-whenever".i18n(),
   ),
   Challenge(
-    value:
-        "Anote um número de 0 a 9, escolha alguém para adivinhar. Se a pessoa acertar, você bebe o número em goles. Se errar, você ganha o número em gole-pass.",
+    value: "guess-number-drink-passes".i18n(),
   ),
   Challenge(
-    value: "Qual é a cor do 'S' da Perdigão? Se errar, beba 6 goles.",
+    value: "perdigao-s-color".i18n(),
   ),
   Challenge(
-    value: "Verdade ou consequência? Escolha sabiamente.",
+    value: "truth-or-dare".i18n(),
   ),
   Challenge(
-    value: "Mostre seu histórico de buscas.",
+    value: "show-search-history".i18n(),
   ),
   Challenge(
-    value: "Beba um copo de soro caseiro.",
+    value: "drink-glass-oral-rehydration".i18n(),
   ),
   Challenge(
-    value: "Fique tranquilo, não precisa beber nada.",
+    value: "no-need-drink".i18n(),
   ),
   Challenge(
-    value: "Quem bebeu a roupa do rei de Roma? Valendo 4 goles.",
+    value: "who-drank-king-rome".i18n(),
   ),
   Challenge(
-    value: "Faça uma dança ou beba 4 goles.",
+    value: "dance-drink-4-sips".i18n(),
   ),
   Challenge(
-    value: "Coma um dente de alho ou tome 1 shot.",
+    value: "eat-garlic-drink-shot".i18n(),
   ),
   Challenge(
-    value: "Sortudo, não precisa beber nenhum shot durante o jogo todo.",
+    value: "lucky-no-shots".i18n(),
   ),
   Challenge(
-    value: "Conte uma história engraçada que você já fez. A galera julga se vale ou não. Valendo 6 goles.",
+    value: "funny-story-6-sips".i18n(),
   ),
   Challenge(
-    value: "Experimente misturar Coca-Cola com cerveja.",
+    value: "mix-coke-beer".i18n(),
   ),
   Challenge(
-    value: "Parabéns! Ganhou 2 gole-pass! Agora mande alguém tomar 1 shot.",
+    value: "congrats-2-sip-passes".i18n(),
   ),
   Challenge(
-    value: "Encha seu copo e adicione uma dose de álcool (aconselho tequila + sal).",
+    value: "fill-cup-add-shot".i18n(),
   ),
   Challenge(
-    value: "Troque seu copo por um copo d'água.",
+    value: "switch-cup-water".i18n(),
   ),
   Challenge(
-    value: "Se você for solteiro, escolha outro solteiro para sentar no seu colo por 2 minutos.",
+    value: "if-single-choose-single-lap".i18n(),
   ),
   Challenge(
-    value: "Qual é o animal que nunca anda sozinho? Quando saem para passear?",
+    value: "what-animal-never-alone".i18n(),
   ),
   Challenge(
-    value: "Conte os números ímpares até 31 em 15 segundos ou beba 3 goles.",
+    value: "odd-numbers-31-15-sec".i18n(),
   ),
   Challenge(
-    value: "Dance se você tiver disposição; se não, beba 5 goles.",
+    value: "dance-if-energy-drink-5-sips".i18n(),
   ),
   // ALL
   Challenge(
-    value: "Quem só fala uma língua vira o copo.",
+    value: "all-drink-language".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Solteiros bebem 3 goles.",
+    value: "all-singles-drink".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Comigo é assim, não sei com vocês. Bebam 3 goles.",
+    value: "all-drink-3-sips".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Quem beber primeiro paga uma bebida para todos.",
+    value: "all-first-drink-pay".i18n(),
     all: true,
   ),
   Challenge(
-    value: "O mais animado da mesa bebe 4 goles.",
+    value: "all-most-excited-4-sips".i18n(),
     all: true,
   ),
   Challenge(
-    value: "O mais calmo da mesa bebe 4 goles.",
+    value: "all-most-calm-4-sips".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Vocês venceram na loteria. Todos bebem um shot.",
+    value: "all-won-lottery-shot".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Quem tem filhos bebe um shot por filho.",
+    value: "all-parents-drink-shots".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Quem não tem filhos bebe o tanto que quiser.",
+    value: "all-no-kids-drink-want".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Casados bebem 3 goles.",
+    value: "all-married-3-sips".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Se sua idade for um número par, beba 4 goles.",
+    value: "all-even-age-4-sips".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Quem vestir uma peça de roupa extra até o fim do jogo ganha um drink de cada jogador na próxima balada.",
+    value: "all-extra-clothing-drink".i18n(),
     all: true,
   ),
   Challenge(
-    value:
-        "Divida o dia do seu aniversário pelo mês. Se o resultado for menos de 2, beba um gole. Caso contrário, ganhe 2 gole-pass.",
+    value: "all-birthday-divide-month".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Escolha quem come mais na mesa. O 'esfomeado' deve comer tudo que tiver em cima da mesa ou beber 2 shots.",
+    value: "all-pick-big-eater".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Quem peidar primeiro ganha +2 gole-pass.",
+    value: "all-first-fart-2-sip-passes".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Todos bebem tudo o que tiver na mesa (sem derramar). Quem beber menos paga (vai lá comprar) 8 latas.",
+    value: "all-drink-table-no-spill".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Joguem até alguém errar. Quem perder vira o copo.",
+    value: "all-play-until-wrong".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Por conta da casa. Todos encham seus copos.",
+    value: "all-house-drink".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Quem escreve com a mão esquerda bebe 4 goles.",
+    value: "all-left-handed-4-sips".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Todos bebem.",
+    value: "all-drink-all".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Todos fazem um elogio.",
+    value: "all-make-compliment".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Mulheres bebem.",
+    value: "all-women-drink".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Homens bebem.",
+    value: "all-men-drink".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Quem tocar no celular bebe 2 shots.",
+    value: "all-touch-phone-2-shots".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Fumantes bebem 3 goles.",
+    value: "all-smokers-3-sips".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Quem já fumou maconha bebe 3 goles.",
+    value: "all-smoked-weed-3-sips".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Quem já usou substâncias ilícitas bebe 4 goles.",
+    value: "all-used-illicit-4-sips".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Quem não é respeitoso não tem vez. Beba 1 shot.",
+    value: "all-no-respect-shot".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Em festa só para mulheres, as garotas gritam 'segura aí' e viram seus copos.",
+    value: "all-women-party-drink".i18n(),
     all: true,
   ),
   Challenge(
-    value: "Cada um mete o dedo no copo à sua direita.",
+    value: "all-each-finger-drink".i18n(),
     all: true,
   ),
   // MULTIPLO
   Challenge(
-    value: "Agora é o ajudante de ",
-    valueB: " por 10 minutos.",
+    value: "helper-for-10-min".i18n(),
+    valueB: " por 10 minutos.".i18n(),
     multiplo: true,
   ),
   Challenge(
-    value: "Chupe o dedo de ",
-    valueB: " ou beba 4 goles.",
+    value: "suck-finger-4-sips".i18n(),
+    valueB: " ou beba 4 goles.".i18n(),
     multiplo: true,
   ),
   Challenge(
-    value: "Lambe o braço de ",
-    valueB: " ou beba 1 shot.",
+    value: "lick-arm-1-shot".i18n(),
+    valueB: " ou beba 1 shot.".i18n(),
     multiplo: true,
   ),
   Challenge(
-    value: "Vire o copo de ",
-    valueB: "",
+    value: "chug-drink-of".i18n(),
+    valueB: "".i18n(),
     multiplo: true,
   ),
   Challenge(
-    value: "Adesso toca a Plinio. ",
-    valueB: " Beba 4 goles.",
+    value: "give-5-hugs".i18n(),
+    valueB: " ou dê 5 abraços.".i18n(),
     multiplo: true,
   ),
   Challenge(
-    value: "Desafie ",
-    valueB: " para ver quem consegue encarar o outro por mais tempo. Quem perder bebe 1 shot.",
+    value: "smile-all-1-shot".i18n(),
+    valueB: " ou beba 1 shot.".i18n(),
     multiplo: true,
   ),
   Challenge(
-    value: "Pegue o próximo desafio de ",
-    valueB: "",
+    value: "how-many-dares".i18n(),
+    valueB: " desafios.".i18n(),
     multiplo: true,
   ),
   Challenge(
-    value: "Pense em uma cor primária. ",
-    valueB: " Tente adivinhar a cor. Quem perder bebe dois goles, quem ganhar recebe +2 gole-pass.",
-    multiplo: true,
-  ),
-  Challenge(
-    value: "Doe seus gole-pass para ",
-    valueB: " e vire seu copo.",
-    multiplo: true,
-  ),
-  Challenge(
-    value: "Escolha alguém para virar o copo de ",
-    valueB: ". E vá pagar uma bebida para todos.",
+    value: "help-player-multiple-4-sips".i18n(),
+    valueB: " ou beba 4 goles.".i18n(),
     multiplo: true,
   ),
 ];

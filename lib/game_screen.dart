@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:friends_game/challenge.dart';
 import 'package:friends_game/widgtes/custom_elevated_button.dart';
+import 'package:localization/localization.dart';
 import 'package:lottie/lottie.dart';
 
 import 'widgtes/custom_text_button.dart';
@@ -75,7 +76,7 @@ class _GameScreenState extends State<GameScreen> {
             //
             // PLAY button
             CustomElevatedButton(
-              text: 'PLAY',
+              text: "play".i18n(),
               onPressed: _play,
             ),
 
@@ -84,7 +85,7 @@ class _GameScreenState extends State<GameScreen> {
             //
             // NEW GAME button
             CustomTextButton(
-              text: 'NEW GAME',
+              text: "new-game".i18n(),
               onPressed: () => setState(() {
                 _restartGame();
                 Navigator.pop(context);
@@ -112,7 +113,7 @@ class _GameScreenState extends State<GameScreen> {
 
     if (challenges.isEmpty) {
       setState(() {
-        _result = "THIS ROUND IS OVER, FINISH YOUR DRINKS!!";
+        _result = "finish-drinks".i18n();
       });
       return;
     }
@@ -151,9 +152,9 @@ class _GameScreenState extends State<GameScreen> {
   List<TextSpan> richText() {
     if (!gameStarted) {
       return [
-        const TextSpan(
-          text: "Press play to start the game",
-          style: TextStyle(color: Colors.white),
+        TextSpan(
+          text: "press-play".i18n(),
+          style: const TextStyle(color: Colors.white),
         ),
       ];
     }
