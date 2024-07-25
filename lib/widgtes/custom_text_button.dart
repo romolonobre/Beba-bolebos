@@ -19,7 +19,7 @@ class CustomTextButton extends StatelessWidget {
       child: TextButton(
         onPressed: onPressed,
         child: CustomText(
-          text: text,
+          text,
         ),
       ),
     );
