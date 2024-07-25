@@ -11,7 +11,7 @@ The game consists of a series of challenges and questions that players must comp
 
 ## Future Development Ideas
 - Enable players to create and add their own custom challenges
-- Multi-language support (at the moment only portuguese)
+- Multi-language support ------>  DONE - The game supports 4 languages, English, Portuguese, Italian and Spanish
 - Variety of challenge types
 - Enhanced User interface
 - Bring new animations
