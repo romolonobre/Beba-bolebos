@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:friends_game/game_screen.dart';
 import 'package:friends_game/main.dart';
+import 'package:friends_game/model/game_screen.dart';
 import 'package:friends_game/widgtes/add_player_input_widget.dart';
 import 'package:friends_game/widgtes/custom_elevated_button.dart';
 import 'package:localization/localization.dart';
 
-import 'app_cache.dart';
-import 'bobelos_controller.dart';
-import 'widgtes/custom_text.dart';
-import 'widgtes/custom_text_button.dart';
-import 'widgtes/playes_list_widget.dart';
+import '../app_cache.dart';
+import '../bobelos_controller.dart';
+import '../widgtes/custom_text.dart';
+import '../widgtes/custom_text_button.dart';
+import '../widgtes/playes_list_widget.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

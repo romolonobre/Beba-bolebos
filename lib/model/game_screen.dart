@@ -1,12 +1,12 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:friends_game/challenge.dart';
+import 'package:friends_game/model/challenge.dart';
 import 'package:friends_game/widgtes/custom_elevated_button.dart';
 import 'package:localization/localization.dart';
 import 'package:lottie/lottie.dart';
 
-import 'widgtes/custom_text_button.dart';
+import '../widgtes/custom_text_button.dart';
 
 class GameScreen extends StatefulWidget {
   final List<String> names;

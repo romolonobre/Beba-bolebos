@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:friends_game/home_screen.dart';
+import 'package:friends_game/pages/home_screen.dart';
 import 'package:localization/localization.dart';
 import 'package:lottie/lottie.dart';
 

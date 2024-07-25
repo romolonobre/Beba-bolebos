@@ -3,7 +3,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:localization/localization.dart';
 
 import 'app_cache.dart';
-import 'splash_screen.dart';
+import 'pages/splash_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
