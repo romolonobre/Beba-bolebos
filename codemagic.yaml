@@ -1,33 +1,37 @@
-
 workflows:
-
-  android-deploy-workflow:
-    name: Android Deployment WorkFlow
-    instance_type: mac_mini_m1
-    max_build_duration: 30
+  android-workflow:
+    name: Android Workflow
+    max_build_duration: 120
     environment:
-      flutter: stable
+      android_signing:
+        - keystore_reference
       groups:
-        - android_creadential
-    scripts: 
-      - name: Set Android SDK location
-        script: echo "flutter.sdk=$HOME/programs/flutter" > "$CM_BUILD_DIR/android/local.properties" 
-      - name: Build AAB
-        script:  |
-          cd $CM_BUILD_DIR
-          flutter pub get
-          flutter build appbundle
-    artifacts:    
-          - build/**/outputs/**/*.apk
-          - build/**/outputs/**/*.aab
+        - google_play
+      flutter: stable
+    scripts:
+      - name: Set up local.properties
+        script: | 
+          echo "flutter.sdk=$HOME/programs/flutter" > "$CM_BUILD_DIR/android/local.properties"
+      - name: Get Flutter packages
+        script: | 
+          flutter packages pub get
+      - name: Build AAB with Flutter
+        script: | 
+          BUILD_NUMBER=$(($(google-play get-latest-build-number --package-name "$PACKAGE_NAME" --tracks="$GOOGLE_PLAY_TRACK") + 1))      
+          flutter build appbundle --release \
+            --build-name=1.0.$BUILD_NUMBER \
+            --build-number=$BUILD_NUMBER
+    artifacts:
+      - build/**/outputs/**/*.aab
+      - build/**/outputs/**/mapping.txt
+      - flutter_drive.log
     publishing:
       email:
         recipients:
           - romoloferreira@icloud.com
         notify:
           success: true
-          failure: false      
-  
-          
+          failure: false
+ 
                        
 
