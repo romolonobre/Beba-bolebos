@@ -15,7 +15,6 @@ workflows:
                 keyPassword=commandtool
                 keyAlias=bolebos_release
                 storeFile=./beba-bolebos-keystore.jks
-                
       - name: Build AAB
         script:  |
           cd $CM_BUILD_DIR
