@@ -8,7 +8,7 @@ workflows:
     environment:
       flutter: stable
       groups:
-        - android_creadential
+        - android_ref
     scripts: 
       - name: Set Android SDK location
         script: echo "flutter.sdk=$HOME/programs/flutter" > "$CM_BUILD_DIR/android/local.properties" 
