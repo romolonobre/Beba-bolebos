@@ -58,7 +58,8 @@ android {
     }
 
     signingConfigs {
-          if (System.getenv()["CI"]) { // CI=true is exported by Codemagic
+        release{ 
+             if (System.getenv()["CI"]) { // CI=true is exported by Codemagic
                 storeFile file(System.getenv()["CM_KEYSTORE_PATH"])
                 storePassword System.getenv()["CM_KEYSTORE_PASSWORD"]
                 keyAlias System.getenv()["CM_KEY_ALIAS"]
@@ -68,7 +69,8 @@ android {
                 keyPassword keystoreProperties['keyPassword']
                 storeFile file(keystoreProperties['storeFile'])
                 storePassword keystoreProperties['storePassword']
-            }
+               }
+   }
     }
 
     buildTypes {
