@@ -1,0 +1,39 @@
+
+workflows:
+
+  android-deploy-workflow:
+    name: Android Deployment WorkFlow
+    instance_type: mac_mini_m1
+    max_build_duration: 30
+    environment:
+      flutter: stable
+      android_signing:
+        - android_keystore
+    scripts: 
+      - name: Set Android SDK location
+        script: echo $KEYSTORE_FILE | base64 --decode > /beba-bolebos-keystore.jks
+                cat >> "$CM_BUILD_DIR/android/local.properties << EOF
+                storePassword=commandtool
+                keyPassword=commandtool
+                keyAlias=bolebos_release
+                storeFile=./beba-bolebos-keystore.jks
+                EOF
+      - name: Build AAB
+        script:  |
+          cd $CM_BUILD_DIR
+          flutter pub get
+          flutter build appbundle
+    artifacts:    
+          - build/**/outputs/**/*.apk
+          - build/**/outputs/**/*.aab
+    publishing:
+      email:
+        recipients:
+          - romoloferreira@icloud.com
+        notify:
+          success: true
+          failure: false      
+  
+          
+                       
+
