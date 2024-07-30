@@ -9,13 +9,13 @@ workflows:
       flutter: stable
     scripts: 
       - name: Set Android SDK location
-        script: echo $KEYSTORE_FILE | base64 --decode > /beba-bolebos-keystore.jks
-                cat >> "$CM_BUILD_DIR/android/local.properties << EOF
+        script: echo $KEYSTORE_FILE | base64 --decode > ./beba-bolebos-keystore.jks
+                cat >> "$CM_BUILD_DIR/android/local.properties 
                 storePassword=commandtool
                 keyPassword=commandtool
                 keyAlias=bolebos_release
                 storeFile=./beba-bolebos-keystore.jks
-                EOF
+                
       - name: Build AAB
         script:  |
           cd $CM_BUILD_DIR
