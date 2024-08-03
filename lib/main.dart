@@ -51,6 +51,7 @@ class BebaBolebosApp extends StatelessWidget {
           return const Locale('en', 'GB');
         },
         title: 'Beba Bolebos',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
