@@ -176,22 +176,22 @@ class _GameScreenState extends State<GameScreen> {
 
   List<Challenge> challenges = [
     Challenge(
-      value: "drink-3-sips".i18n(),
+      value: "drink-3-gulps".i18n(),
     ),
     Challenge(
-      value: "make-one-for-us-do-it".i18n(),
+      value: "make-one-for-us".i18n(),
     ),
     Challenge(
       value: "drink-whenever-you-want".i18n(),
     ),
     Challenge(
-      value: "won-2-sip-passes".i18n(),
+      value: "lucky-2-gulp-pass".i18n(),
     ),
     Challenge(
-      value: "largest-star-solar-system".i18n(),
+      value: "biggest-star-solar-system".i18n(),
     ),
     Challenge(
-      value: "drink-shot-stop-being-silly".i18n(),
+      value: "drink-one-shot-stop-being-silly".i18n(),
     ),
     Challenge(
       value: "born-in-rio-de-janeiro".i18n(),
@@ -200,88 +200,88 @@ class _GameScreenState extends State<GameScreen> {
       value: "are-you-okay".i18n(),
     ),
     Challenge(
-      value: "shot-lemon-salt".i18n(),
+      value: "drink-1-shot-lemon-salt".i18n(),
     ),
     Challenge(
-      value: "make-choice".i18n(),
+      value: "make-a-choice".i18n(),
     ),
     Challenge(
-      value: "you-and-friends-drink".i18n(),
+      value: "you-and-friends-drink-3-gulps".i18n(),
     ),
     Challenge(
-      value: "challenge-flip-cup".i18n(),
+      value: "challenge-someone-flip-cup".i18n(),
     ),
     Challenge(
-      value: "share-secret".i18n(),
+      value: "tell-something-nobody-knows".i18n(),
     ),
     Challenge(
-      value: "full-cup-drink".i18n(),
+      value: "if-your-cup-is-full-flip-it".i18n(),
     ),
     Challenge(
-      value: "funniest-drink-shot".i18n(),
+      value: "choose-funniest-person-drink-shot".i18n(),
     ),
     Challenge(
-      value: "sit-out-5-min".i18n(),
+      value: "choose-player-sit-out-5-minutes".i18n(),
     ),
     Challenge(
       value: "make-funny-gesture".i18n(),
     ),
     Challenge(
-      value: "dance-choose-drink".i18n(),
+      value: "dance-on-the-mouth-of-the-bottle".i18n(),
     ),
     Challenge(
       value: "choose-next-3-songs".i18n(),
     ),
     Challenge(
-      value: "drink-water-good".i18n(),
+      value: "drink-glass-of-water".i18n(),
     ),
     Challenge(
-      value: "nickname-left-player".i18n(),
+      value: "choose-nickname-for-left-player".i18n(),
     ),
     Challenge(
-      value: "what-is-it".i18n(),
+      value: "what-is-it-clear-and-salty".i18n(),
     ),
     Challenge(
-      value: "confess-flaw".i18n(),
+      value: "say-a-flaw".i18n(),
     ),
     Challenge(
-      value: "fill-water-drink".i18n(),
+      value: "fill-your-cup-with-water".i18n(),
     ),
     Challenge(
-      value: "drink-2-sips-upside-down".i18n(),
+      value: "drink-2-gulps-upside-down".i18n(),
     ),
     Challenge(
-      value: "take-10-min-break".i18n(),
+      value: "take-10-minute-break".i18n(),
     ),
     Challenge(
-      value: "no-get-up-20-min".i18n(),
+      value: "cant-leave-table-20-minutes".i18n(),
     ),
     Challenge(
-      value: "choose-kiss".i18n(),
+      value: "choose-someone-to-kiss".i18n(),
     ),
     Challenge(
-      value: "make-laugh-drink".i18n(),
+      value: "try-to-make-someone-laugh".i18n(),
     ),
     Challenge(
-      value: "say-praise-funny-gesture".i18n(),
+      value: "give-a-compliment-or-gesture".i18n(),
     ),
     Challenge(
-      value: "name-10-capitals-20-sec".i18n(),
+      value: "name-10-capitals".i18n(),
     ),
     Challenge(
-      value: "drink-2-shots-navel".i18n(),
+      value: "choose-someone-drink-2-shots-navel".i18n(),
     ),
     Challenge(
-      value: "beer-lot-drink".i18n(),
+      value: "beer-has-lots-of-cups".i18n(),
     ),
     Challenge(
-      value: "lucky-drink-whenever".i18n(),
+      value: "lucky-drink-whenever-want".i18n(),
     ),
     Challenge(
-      value: "guess-number-drink-passes".i18n(),
+      value: "write-number-0-9".i18n(),
     ),
     Challenge(
-      value: "perdigao-s-color".i18n(),
+      value: "what-color-s-perdigao".i18n(),
     ),
     Challenge(
       value: "truth-or-dare".i18n(),
@@ -290,211 +290,200 @@ class _GameScreenState extends State<GameScreen> {
       value: "show-search-history".i18n(),
     ),
     Challenge(
-      value: "drink-glass-oral-rehydration".i18n(),
+      value: "drink-glass-homemade-serum".i18n(),
     ),
     Challenge(
-      value: "no-need-drink".i18n(),
+      value: "relax-dont-drink-anything".i18n(),
     ),
     Challenge(
-      value: "who-drank-king-rome".i18n(),
+      value: "who-drank-king-rome-clothes".i18n(),
     ),
     Challenge(
-      value: "dance-drink-4-sips".i18n(),
+      value: "do-dance-or-drink-4-gulps".i18n(),
     ),
     Challenge(
-      value: "eat-garlic-drink-shot".i18n(),
+      value: "eat-garlic-clove-or-drink-1-shot".i18n(),
     ),
     Challenge(
-      value: "lucky-no-shots".i18n(),
+      value: "lucky-no-shot-game".i18n(),
     ),
     Challenge(
-      value: "funny-story-6-sips".i18n(),
+      value: "tell-funny-story".i18n(),
     ),
     Challenge(
-      value: "mix-coke-beer".i18n(),
+      value: "try-mixing-coke-and-beer".i18n(),
     ),
     Challenge(
-      value: "congrats-2-sip-passes".i18n(),
+      value: "congrats-2-gulp-pass".i18n(),
     ),
     Challenge(
-      value: "fill-cup-add-shot".i18n(),
+      value: "fill-cup-add-shot-alcohol".i18n(),
     ),
     Challenge(
-      value: "switch-cup-water".i18n(),
+      value: "swap-your-cup-for-water".i18n(),
     ),
     Challenge(
-      value: "if-single-choose-single-lap".i18n(),
+      value: "if-you-are-single-choose-single".i18n(),
     ),
     Challenge(
-      value: "what-animal-never-alone".i18n(),
+      value: "what-animal-never-walks-alone".i18n(),
     ),
     Challenge(
-      value: "odd-numbers-31-15-sec".i18n(),
+      value: "count-odd-numbers-to-31".i18n(),
     ),
     Challenge(
-      value: "dance-if-energy-drink-5-sips".i18n(),
+      value: "dance-if-you-feel-like".i18n(),
+    ),
+    Challenge(
+      value: "who-speaks-one-language-flip-cup".i18n(),
+    ),
+    Challenge(
+      value: "singles-drink-3-gulps".i18n(),
+    ),
+    Challenge(
+      value: "cheers-drink-3-gulps".i18n(),
+    ),
+    Challenge(
+      value: "first-to-drink-buys-everyone-drink".i18n(),
+    ),
+    Challenge(
+      value: "most-energetic-drinks-4-gulps".i18n(),
+    ),
+    Challenge(
+      value: "calmest-drinks-4-gulps".i18n(),
+    ),
+    Challenge(
+      value: "everyone-wins-lottery-drinks-shot".i18n(),
+    ),
+    Challenge(
+      value: "parents-drink-one-shot-per-child".i18n(),
+    ),
+    Challenge(
+      value: "childless-drink-whatever".i18n(),
+    ),
+    Challenge(
+      value: "married-drink-3-gulps".i18n(),
+    ),
+    Challenge(
+      value: "if-age-even-number-drink-4-gulps".i18n(),
+    ),
+    Challenge(
+      value: "wear-extra-clothing-piece".i18n(),
+    ),
+    Challenge(
+      value: "divide-birthday-day-month".i18n(),
+    ),
+    Challenge(
+      value: "choose-biggest-eater".i18n(),
+    ),
+    Challenge(
+      value: "first-to-fart-gets-2-gulp-pass".i18n(),
+    ),
+    Challenge(
+      value: "drink-everything-on-table".i18n(),
+    ),
+    Challenge(
+      value: "play-until-someone-loses-flip-cup".i18n(),
+    ),
+    Challenge(
+      value: "house-treat-everyone-fill-cups".i18n(),
+    ),
+    Challenge(
+      value: "left-handed-drink-4-gulps".i18n(),
+    ),
+    Challenge(
+      value: "everyone-drinks".i18n(),
+    ),
+    Challenge(
+      value: "everyone-says-song-phrase".i18n(),
+    ),
+    Challenge(
+      value: "continue".i18n(),
     ),
     // ALL
     Challenge(
-      value: "all-drink-language".i18n(),
+      value: "who-speaks-one-language-flip-cup".i18n(),
       all: true,
     ),
     Challenge(
-      value: "all-singles-drink".i18n(),
+      value: "singles-drink-3-gulps".i18n(),
       all: true,
     ),
     Challenge(
-      value: "all-drink-3-sips".i18n(),
+      value: "first-to-drink-buys-everyone-drink".i18n(),
       all: true,
     ),
     Challenge(
-      value: "all-first-drink-pay".i18n(),
+      value: "most-energetic-drinks-4-gulps".i18n(),
       all: true,
     ),
     Challenge(
-      value: "all-most-excited-4-sips".i18n(),
+      value: "calmest-drinks-4-gulps".i18n(),
       all: true,
     ),
     Challenge(
-      value: "all-most-calm-4-sips".i18n(),
+      value: "everyone-wins-lottery-drinks-shot".i18n(),
       all: true,
     ),
     Challenge(
-      value: "all-won-lottery-shot".i18n(),
+      value: "parents-drink-one-shot-per-child".i18n(),
       all: true,
     ),
     Challenge(
-      value: "all-parents-drink-shots".i18n(),
+      value: "childless-drink-whatever".i18n(),
       all: true,
     ),
     Challenge(
-      value: "all-no-kids-drink-want".i18n(),
+      value: "married-drink-3-gulps".i18n(),
       all: true,
     ),
     Challenge(
-      value: "all-married-3-sips".i18n(),
+      value: "if-age-even-number-drink-4-gulps".i18n(),
       all: true,
     ),
     Challenge(
-      value: "all-even-age-4-sips".i18n(),
+      value: "wear-extra-clothing-piece".i18n(),
       all: true,
     ),
     Challenge(
-      value: "all-extra-clothing-drink".i18n(),
+      value: "divide-birthday-day-month".i18n(),
       all: true,
     ),
     Challenge(
-      value: "all-birthday-divide-month".i18n(),
+      value: "choose-biggest-eater".i18n(),
       all: true,
     ),
     Challenge(
-      value: "all-pick-big-eater".i18n(),
+      value: "first-to-fart-gets-2-gulp-pass".i18n(),
       all: true,
     ),
     Challenge(
-      value: "all-first-fart-2-sip-passes".i18n(),
+      value: "drink-everything-on-table".i18n(),
       all: true,
     ),
     Challenge(
-      value: "all-drink-table-no-spill".i18n(),
+      value: "play-until-someone-loses-flip-cup".i18n(),
       all: true,
     ),
     Challenge(
-      value: "all-play-until-wrong".i18n(),
+      value: "house-treat-everyone-fill-cups".i18n(),
       all: true,
     ),
     Challenge(
-      value: "all-house-drink".i18n(),
+      value: "left-handed-drink-4-gulps".i18n(),
       all: true,
     ),
     Challenge(
-      value: "all-left-handed-4-sips".i18n(),
+      value: "everyone-drinks".i18n(),
       all: true,
     ),
     Challenge(
-      value: "all-drink-all".i18n(),
+      value: "everyone-says-song-phrase".i18n(),
       all: true,
     ),
     Challenge(
-      value: "all-make-compliment".i18n(),
+      value: "continue".i18n(),
       all: true,
-    ),
-    Challenge(
-      value: "all-women-drink".i18n(),
-      all: true,
-    ),
-    Challenge(
-      value: "all-men-drink".i18n(),
-      all: true,
-    ),
-    Challenge(
-      value: "all-touch-phone-2-shots".i18n(),
-      all: true,
-    ),
-    Challenge(
-      value: "all-smokers-3-sips".i18n(),
-      all: true,
-    ),
-    Challenge(
-      value: "all-smoked-weed-3-sips".i18n(),
-      all: true,
-    ),
-    Challenge(
-      value: "all-used-illicit-4-sips".i18n(),
-      all: true,
-    ),
-    Challenge(
-      value: "all-no-respect-shot".i18n(),
-      all: true,
-    ),
-    Challenge(
-      value: "all-women-party-drink".i18n(),
-      all: true,
-    ),
-    Challenge(
-      value: "all-each-finger-drink".i18n(),
-      all: true,
-    ),
-    // MULTIPLO
-    Challenge(
-      value: "helper-for-10-min".i18n(),
-      valueB: " por 10 minutos.".i18n(),
-      multiplo: true,
-    ),
-    Challenge(
-      value: "suck-finger-4-sips".i18n(),
-      valueB: " ou beba 4 goles.".i18n(),
-      multiplo: true,
-    ),
-    Challenge(
-      value: "lick-arm-1-shot".i18n(),
-      valueB: " ou beba 1 shot.".i18n(),
-      multiplo: true,
-    ),
-    Challenge(
-      value: "chug-drink-of".i18n(),
-      valueB: "".i18n(),
-      multiplo: true,
-    ),
-    Challenge(
-      value: "give-5-hugs".i18n(),
-      valueB: " ou dê 5 abraços.".i18n(),
-      multiplo: true,
-    ),
-    Challenge(
-      value: "smile-all-1-shot".i18n(),
-      valueB: " ou beba 1 shot.".i18n(),
-      multiplo: true,
-    ),
-    Challenge(
-      value: "how-many-dares".i18n(),
-      valueB: " desafios.".i18n(),
-      multiplo: true,
-    ),
-    Challenge(
-      value: "help-player-multiple-4-sips".i18n(),
-      valueB: " ou beba 4 goles.".i18n(),
-      multiplo: true,
     ),
   ];
 }
